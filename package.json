@@ -1,0 +1,28 @@
+{
+  "name": "simple-image-editor",
+  "version": "1.0.0",
+  "description": "Basic Image Editor App that allows users to load an image, apply basic image processing operations, and save the processed image.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "NA"
+  },
+  "keywords": [
+    "openCV",
+    "ImageProcessing",
+    "SSD",
+    "YOLO",
+    "tensorflow.js"
+  ],
+  "author": "DG",
+  "license": "MIT",
+  "opencv4nodejs": {
+    "disableAutoBuild": "1"
+  },
+  "dependencies": {
+    "@u4/opencv4nodejs": "^6.5.2"
+  }
+}
