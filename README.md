@@ -24,3 +24,7 @@ npm i -g node-gyp;  //mandatory
 npm i --save  @u4/opencv4nodejs;
 
 ```
+
+#### Once OpenCV and opencv4nodejs npm package installed:
+
+*** node src/filename.js *** to run each function.
