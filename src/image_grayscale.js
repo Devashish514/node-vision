@@ -1,6 +1,6 @@
 const cv = require("@u4/opencv4nodejs");
 
-function convertToGrayScale(image) {
+exports.convertToGrayScale = (image) => {
     try {
         return image.cvtColor(cv.COLOR_BGR2GRAY);
     } catch (error) {
@@ -8,7 +8,7 @@ function convertToGrayScale(image) {
     }
 }
 
-function convertToHSL(image) {
+exports.convertToHSL = (image) => {
     return image.cvtColor(cv.COLOR_BGR2HLS);
 }
 
@@ -23,4 +23,4 @@ function processImage(imagePath, outputPath) {
     console.log('Image processed successfully. Output saved to:', outputPath);
 }
 
-processImage('photo.jpg', 'test/gray.jpg');
+// processImage('photo.jpg', 'test/gray.jpg');
